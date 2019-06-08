@@ -26,17 +26,24 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            I want to build something that contributes to the bigger things
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            Ever since I was a kid, I always had a curiosity for technology and
+            video games. At first, as a kid, I wanted to become an architect or
+            even a video-games developer, since I love playing it so much.
+            However, as I get older, and trying out many different job fields, I
+            realize that <b>nothing sparks me joy as much as programming.</b>
+            With the technology world evolving extremely fast, to be able to
+            learn something and create something at the same time, it honestly
+            feels very fulfilling. My go to cuisine is Japanese cuisine, but I
+            also love Thai food, the spicier the better, I love Jazz, RnB and
+            Hip-Hop.
           </p>
+          <blockquote>
+            虎穴に入らずんば虎子を得ず. (nothing ventured, nothing gained). -
+            Japanese Proverb
+          </blockquote>
         </header>
         <ul className="icons major">
           <li>
