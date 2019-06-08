@@ -14,19 +14,10 @@ const IndexPage = () => (
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
-        <ul className="actions special">
-          <li>
-            <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
-                Explore
-              </a>
-            </Scroll>
-          </li>
-        </ul>
       </div>
       <Scroll type="id" element="one">
         <a href="#one" className="more">
-          Learn More
+          About Me
         </a>
       </Scroll>
     </section>
@@ -176,7 +167,7 @@ const IndexPage = () => (
         </ul>
       </div>
     </section>
-
+    {/* 
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
@@ -199,7 +190,7 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section>
+    </section> */}
   </Layout>
 );
 
