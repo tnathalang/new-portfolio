@@ -117,7 +117,7 @@ const IndexPage = () => (
         <header className="major">
           <h2>My Current Stack</h2>
           <p>
-            I am currently working as a full-stack developer, using{' '}
+            I am working as a full-stack developer at the moment, using{' '}
             <b>React, Node.js and C#</b>
           </p>
         </header>
