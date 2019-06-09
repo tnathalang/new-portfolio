@@ -117,4 +117,14 @@ $palette: (
     border2: #bfbfbf,
     border2-bg: rgba(0, 0, 0, 0.1),
   ),
+  accent8: (
+    bg:rgb(46, 46, 46),
+    fg-bold: #ffffff,
+    fg: mix(#464646, hsl(0, 0%, 100%), 25%),
+    fg-light: mix(#464646, rgb(255, 255, 255), 40%),
+    border: rgb(153, 153, 153),
+    border-bg: rgba(255, 255, 255, 255),
+    border2: rgba(0, 0, 0, 0.25),
+    border2-bg: rgba(255, 255, 255, 255),
+  ),
 );

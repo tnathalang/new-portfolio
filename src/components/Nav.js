@@ -29,6 +29,11 @@ export default function Nav({ onMenuToggle = () => {} }) {
               </Scroll>
               <Scroll type="id" element="three">
               <li>
+                <a href="#three">Portfolio</a>
+              </li>
+              </Scroll>
+              <Scroll type="id" element="three">
+              <li>
                 <a href="/Elements">Elements</a>
               </li>
               </Scroll>

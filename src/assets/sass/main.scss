@@ -307,6 +307,7 @@
 		@include breakpoint('<=xsmall') {
 			@include html-grid(1.5em, 'xsmall');
 		}
+
 	}
 
 /* Section/Article */
@@ -1356,6 +1357,10 @@
 
 		&.style5 {
 			@include wrapper(accent7);
+		}
+
+		&.style6 {
+			@include wrapper(accent8);
 		}
 
 		@include breakpoint('<=medium') {
