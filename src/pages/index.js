@@ -64,7 +64,7 @@ const IndexPage = () => (
       </section>
     </section>
 
-    <section id="three" className="wrapper style3 special">
+    <section id="two" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
           <h2>My current stack</h2>
