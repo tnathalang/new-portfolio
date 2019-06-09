@@ -23,7 +23,8 @@ $size: (
 // Font.
 $font: (
   family: (
-    'Open Sans',
+    'Athiti',
+    'Yu Mincho',
     Helvetica,
     sans-serif,
   ),
@@ -47,17 +48,17 @@ $palette: (
   border2: #fff,
   border2-bg: rgba(144, 144, 144, 0.5),
   accent1: (
-    bg: #21b2a6,
+    bg: #616161,
     fg-bold: #ffffff,
-    fg: mix(#21b2a6, #ffffff, 25%),
-    fg-light: mix(#21b2a6, #ffffff, 40%),
+    fg: mix(#4d4d4d, #ffffff, 25%),
+    fg-light: mix(#4d4d4d, #ffffff, 40%),
     border: rgba(0, 0, 0, 0.125),
     border-bg: rgba(255, 255, 255, 0.075),
     border2: rgba(0, 0, 0, 0.25),
     border2-bg: rgba(255, 255, 255, 0.2),
   ),
   accent2: (
-    bg: #00ffcc,
+    bg: #00ffc8,
     fg-bold: #ffffff,
     fg: mix(#00ffcc, #ffffff, 25%),
     fg-light: mix(#00ffcc, #ffffff, 40%),
@@ -97,10 +98,10 @@ $palette: (
     border2-bg: rgba(255, 255, 255, 0.2),
   ),
   accent6: (
-    bg: #ed4933,
-    fg-bold: #ffffff,
-    fg: mix(#ed4933, #ffffff, 25%),
-    fg-light: mix(#ed4933, #ffffff, 40%),
+    bg: #07f3df,
+    fg-bold: #000,
+    fg: mix(#07f3df, #ffffff, 25%),
+    fg-light: mix(#07f3df, #ffffff, 40%),
     border: rgba(0, 0, 0, 0.125),
     border-bg: rgba(255, 255, 255, 0.075),
     border2: rgba(0, 0, 0, 0.25),

@@ -22,64 +22,24 @@ const IndexPage = () => (
       </Scroll>
     </section>
 
-    <section id="one" className="wrapper style1 special">
-      <div className="inner">
-        <header className="major">
-          <h2>
-            I want to build something that contributes to the bigger things
-          </h2>
-          <p>
-            Ever since I was a kid, I always had a curiosity for technology and
-            video games. At first, as a kid, I wanted to become an architect or
-            even a video-games developer, since I love playing it so much.
-            However, as I get older, and trying out many different job fields, I
-            realize that <b>nothing sparks me joy as much as programming.</b>
-            With the technology world evolving extremely fast, to be able to
-            learn something and create something at the same time, it honestly
-            feels very fulfilling. My go to cuisine is Japanese cuisine, but I
-            also love Thai food, the spicier the better, I love Jazz, RnB and
-            Hip-Hop.
-          </p>
-          <blockquote>
-            虎穴に入らずんば虎子を得ず. (nothing ventured, nothing gained). -
-            Japanese Proverb
-          </blockquote>
-        </header>
-        <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="two" className="wrapper alt style2">
+    <section id="one" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
           <img src={pic1} alt="" />
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
+          I want to build something that contributes to the bigger things
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Ever since I was a kid, I always had a curiosity for technology and
+            video games. At first, as a kid, I wanted to become an architect or
+            even a video-games developer, since I love playing it so much.
+            However, as I get older, and trying out many different job fields, I
+            realize that <em>nothing sparks me joy as much as programming. </em> 
+            
           </p>
+         
         </div>
       </section>
       <section className="spotlight">
@@ -87,31 +47,19 @@ const IndexPage = () => (
           <img src={pic2} alt="" />
         </div>
         <div className="content">
-          <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
-          </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          With the technology world evolving extremely fast, to be able to
+            learn something and create something at the same time, it honestly
+            feels very fulfilling. My go to cuisine is Japanese cuisine, but I
+            also love Thai food, the spicier the better, I love Jazz, RnB and
+            Hip-Hop. When I'm not programming, eating or working, I try to stay in shape with badminton.
           </p>
-        </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic3} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
+         
+          <blockquote>
+            虎穴に入らずんば虎子を得ず. (nothing ventured, nothing gained). -
+            Japanese Proverb
+          </blockquote>
+          
         </div>
       </section>
     </section>
@@ -174,30 +122,34 @@ const IndexPage = () => (
         </ul>
       </div>
     </section>
-    {/* 
-    <section id="cta" className="wrapper style4">
-      <div className="inner">
-        <header>
-          <h2>Arcue ut vel commodo</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
-          </p>
-        </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section> */}
+    <section className="spotlight">
+        <div className="image">
+          <img src={pic3} alt="" />
+        </div>
+        <div className="content">
+        <h4>Send me an Email here</h4>
+					<form method="post" action="#">
+						<div className="row gtr-uniform">
+							<div className="col-6 col-12-xsmall">
+								<input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Name" />
+							</div>
+							<div className="col-6 col-12-xsmall">
+								<input type="email" name="demo-email" id="demo-email" defaultValue="" placeholder="Email" />
+							</div>
+						
+							<div className="col-12">
+								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+							</div>
+							<div className="col-12">
+								<ul className="actions">
+									<li><input type="submit" value="Send Message" className="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+        </div>
+      </section>
   </Layout>
 );
 

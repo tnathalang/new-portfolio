@@ -16,8 +16,8 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>Personalized with passion</li>
-        <li>Made in Montreal, QC</li>
+        <li>Made with passion</li>
+        <li>Montreal, QC</li>
         <li>
           Design: <a href="http://html5up.net">HTML5 UP</a>
         </li>
