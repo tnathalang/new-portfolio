@@ -194,8 +194,11 @@ const IndexPage = () => (
         <img src={pic3} alt="" />
       </div>
       <div className="content">
-        <h4>Send me an Email here</h4>
-        <form method="post" action="#">
+        <h4>Let's talk</h4>
+        <form
+          method="POST"
+          action="https://formspree.io/nathalang_t@hotmail.ca"
+        >
           <div className="row gtr-uniform">
             <div className="col-6 col-12-xsmall">
               <input
