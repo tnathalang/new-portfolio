@@ -67,59 +67,50 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>My current stack</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            I am currently working as a full-stack developer, using <b>React, Node.js and C#</b>
           </p>
         </header>
-        <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-        </ul>
+        <div className="row">
+						<div className="col-6 col-12-medium">
+							<h4 className="icon solid fa-code"> Languages</h4>
+							<ul className="alt">
+								<li>Javascript</li>
+								<li>Typescript</li>
+								<li>Ruby</li>
+								<li>HTML 5 & CSS 3</li>
+								<li>C#</li>
+							</ul>
+							<h4 className="icon solid fa-code-branch"> Tools</h4>
+							<ul className="alt">
+								<li>Git/Github</li>
+								<li>Azure Dev Ops</li>
+								<li>VS code</li>
+								<li>Contenful</li>
+								<li>Wordpress</li>
+								<li>Jira</li>
+							</ul>
+						</div>
+						<div className="col-6 col-12-medium">
+							<h4 className="icon solid fa-laptop"> Library and Framework</h4>
+							<ul className="alt">
+								<li>React.JS</li>
+								<li>Node.JS</li>
+								<li>Ruby on Rails</li>
+								<li>.Net</li>
+								<li>Bootstrap</li>
+								<li>Material UI</li>
+							</ul>
+              <h4 className="icon solid fa-database"> Database</h4>
+							<ul className="alt">
+								<li>PostgreSQL</li>
+                <li>GraphQL</li>
+								<li>SQL</li>
+								<li>Knex</li>
+							</ul>
+						</div>
+					</div>
       </div>
     </section>
     <section className="spotlight">
