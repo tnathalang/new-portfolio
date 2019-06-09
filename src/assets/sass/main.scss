@@ -309,6 +309,7 @@
 		}
 
 	}
+	
 
 /* Section/Article */
 
@@ -339,7 +340,7 @@
 		}
 
 		&.major {
-			margin: 0 0 (_size(element-margin) * 1.75) 0;
+			margin: 0 0 0;
 
 			h2, h3, h4, h5, h6 {
 				border-bottom: solid 2px _palette(border);
@@ -530,24 +531,24 @@
 
 /* Box */
 
-	.box {
-		border-radius: 3px;
-		border: solid 2px _palette(border);
-		margin-bottom: _size(element-margin);
-		padding: 1.5em;
+	// .box {
+	// 	border-radius: 3px;
+	// 	border: solid 2px _palette(border);
+	// 	margin-bottom: _size(element-margin);
+	// 	padding: 1.5em;
 
-		> :last-child,
-		> :last-child > :last-child,
-		> :last-child > :last-child > :last-child {
-			margin-bottom: 0;
-		}
+	// 	> :last-child,
+	// 	> :last-child > :last-child,
+	// 	> :last-child > :last-child > :last-child {
+	// 		margin-bottom: 0;
+	// 	}
 
-		&.alt {
-			border: 0;
-			border-radius: 0;
-			padding: 0;
-		}
-	}
+	// 	&.alt {
+	// 		border: 0;
+	// 		border-radius: 0;
+	// 		padding: 0;
+	// 	}
+	// }
 
 /* Icon */
 
@@ -1936,3 +1937,18 @@
 			}
 		}
 	}
+
+	.portfolio {
+		background: black;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 1em; 
+	  }
+	  
+	  #portfolio-box {
+		margin: 0 1em;
+		padding-bottom: 1em;
+	  }
+	  .portfolio-row {
+		  margin-left: 1em
+	  }

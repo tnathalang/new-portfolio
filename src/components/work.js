@@ -21,82 +21,63 @@ const useStyles = makeStyles({
 });
 
 function MediaCard() {
-  const classes = useStyles();
-
   return (
-    <section id="three" className="wrapper style6 special">
-      <div className="inner">
-        <header className="major">
-          <h2>My Current Stack</h2>
-          <p>
-            I am currently working as a full-stack developer, using{' '}
-            <b>React, Node.js and C#</b>
-          </p>
-        </header>
-        <ul className="features">
-          <li className="icon solid fa-code">
-            <h2>Languages</h2>
-            <p>
-              Javascript
-              <br />
-              Typescript
-              <br />
-              Ruby
-              <br />
-              HTML 5 & CSS 3
-              <br />
-              C#
-              <br />
-            </p>
-          </li>
-          <li className="icon solid fa-code-branch">
-            <h2>Tools</h2>
-            <p>
-              Git/Github
-              <br />
-              Azure Dev Ops
-              <br />
-              VS Code
-              <br />
-              Contentful
-              <br />
-              Wordpress
-              <br />
-              Jira
-              <br />
-            </p>
-          </li>
-          <li className="icon solid fa-laptop">
-            <h2>Library and frameworks</h2>
-            <p>
-              React.JS
-              <br />
-              Node.JS
-              <br />
-              Ruby on Rails
-              <br />
-              .NET
-              <br />
-              Bootstrap
-              <br />
-              Material UI
-              <br />
-            </p>
-          </li>
-          <li className="icon solid fa-database">
-            <h2>Database</h2>
-            <p>
-              PostgreSQL
-              <br />
-              GraphQL
-              <br />
-              SQL
-              <br />
-              Knes
-              <br />
-            </p>
-          </li>
-        </ul>
+    <section>
+      <h4>Image</h4>
+      <h5>Fit</h5>
+      <div className="box alt">
+        <div className="row gtr-50 gtr-uniform">
+          <div className="col-12">
+            <span className="image fit">
+              <img src={banner} alt="" />
+            </span>
+          </div>
+          <div className="col-4">
+            <span className="image fit">
+              <img src={pic1} alt="" />
+            </span>
+          </div>
+          <div className="col-4">
+            <span className="image fit">
+              <img src={pic2} alt="" />
+            </span>
+          </div>
+          <div className="col-4">
+            <span className="image fit">
+              <img src={pic3} alt="" />
+            </span>
+          </div>
+          <div className="col-4">
+            <span className="image fit">
+              <img src={pic3} alt="" />
+            </span>
+          </div>
+          <div className="col-4">
+            <span className="image fit">
+              <img src={pic2} alt="" />
+            </span>
+          </div>
+          <div className="col-4">
+            <span className="image fit">
+              <img src={pic1} alt="" />
+            </span>
+          </div>
+          <div className="col-4">
+            <span className="image fit">
+              <img src={pic2} alt="" />
+            </span>
+          </div>
+          <div className="col-4">
+            <span className="image fit">
+              <img src={pic1} alt="" />
+            </span>
+          </div>
+          <div className="col-4">
+            <span className="image fit">
+              <img src={pic3} alt="" />
+            </span>
+          </div>
+        </div>
       </div>
     </section>
     // <div className="wrapper style3 special" id="#three">

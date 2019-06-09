@@ -3,7 +3,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
-import Work from '../components/work';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
@@ -187,8 +186,39 @@ const IndexPage = () => (
         </ul>
       </div>
     </section>
-    <Work />
-    <section></section>
+    <section className="wrapper style1 special">
+      <div className="inner">
+        <header className="major">
+          <h2>Some of the works I did</h2>
+        </header>
+        <p>These were projects I enjoy building the most</p>
+      </div>
+    </section>
+    <section>
+      <div className="portfolio">
+        <div>
+          <span className="image fit">
+            <img src={pic1} alt="" />
+          </span>
+        </div>
+        <div>
+          <span className="image fit">
+            <img src={pic2} alt="" />
+          </span>
+        </div>
+
+        <div>
+          <span className="image fit">
+            <img src={pic3} alt="" />
+          </span>
+        </div>
+        <div>
+          <span className="image fit">
+            <img src={pic1} alt="" />
+          </span>
+        </div>
+      </div>
+    </section>
     <section className="spotlight">
       <div className="image">
         <img src={pic3} alt="" />
