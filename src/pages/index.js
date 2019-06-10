@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
-import { CardActions, CardContent, Typography } from '@material-ui/core';
+import { CardActions, div, p } from '@material-ui/core';
 
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
@@ -208,7 +208,7 @@ const IndexPage = () => (
           </span>
           <div className="inner">
             <h2 className="major">Jungle</h2>
-            <h4>
+            <h4 className="work-text">
               An e-commerce Ruby on Rails app, offers a review system and
               purchase options with Stripes. Required Users to have an account
             </h4>
@@ -230,47 +230,39 @@ const IndexPage = () => (
           <span>
             <img src={pearup} alt="" className="img" />
           </span>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              Pear-UP!
-            </Typography>
-            <Typography>
+          <div>
+            <h2>Pear-UP!</h2>
+            <h4 className="work-text">
               Matching users base on common interests and for scheduling a
               meetup with someone to do an activity within a coworker space on
               the fly type of app
-            </Typography>
-            <Typography variant="body3" color="textSecondary" component="p">
+            </h4>
+            <p>
               Made using React on Rails, with Postgres DB, Bootstrap and SASS
               for styling
-            </Typography>
-          </CardContent>
-          <CardActions>
-            <a
-              size="small"
-              color="primary"
-              href="https://github.com/tnathalang/Pear-Up-"
-              target="_blank"
-            >
-              Github Link
-            </a>
-          </CardActions>
+            </p>
+          </div>
+          <a
+            size="small"
+            color="primary"
+            href="https://github.com/tnathalang/Pear-Up-"
+            target="_blank"
+          >
+            Github Link
+          </a>
         </div>
         <div>
           <span>
             <img src={chatty} alt="" className="img" />
           </span>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              Chatty
-            </Typography>
-            <Typography>
+          <div>
+            <h2>Chatty</h2>
+            <h4 className="work-text">
               A minimal chatting app built with React, support multiple users.
-              You can also change colors of your name! no log ins needed
-            </Typography>
-            <Typography variant="body3" color="textSecondary" component="p">
-              Made using React and SASS
-            </Typography>
-          </CardContent>
+              You can also change colors of your name, no log ins needed
+            </h4>
+            <p>Made using React and SASS</p>
+          </div>
           <a
             size="small"
             color="primary"
@@ -284,19 +276,17 @@ const IndexPage = () => (
           <span>
             <img src={tweeter} alt="" className="img" />
           </span>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              Tweeter
-            </Typography>
-            <Typography>
+          <div>
+            <h2>Tweeter</h2>
+            <h4 className="work-text">
               A twitter clone project to help learn front-end without frameworks
-              and css practice. You can send tweets and they are stored.
-            </Typography>
-            <Typography variant="body3" color="textSecondary" component="p">
+              and css practices. You can send tweets and are stored.
+            </h4>
+            <p>
               Made with JQuery Javascript, with Postgres DB, Bootstrap and CSS 3
               for styling
-            </Typography>
-          </CardContent>
+            </p>
+          </div>
           <a
             size="small"
             color="primary"
