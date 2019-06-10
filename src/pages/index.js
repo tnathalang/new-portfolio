@@ -203,7 +203,7 @@ const IndexPage = () => (
     <section id="three">
       <div className="portfolio">
         <div>
-          <span>
+          <span className="image fit">
             <img src={jungle} alt="" className="img" />
           </span>
           <div className="inner">
@@ -227,7 +227,7 @@ const IndexPage = () => (
           </a>
         </div>
         <div>
-          <span>
+          <span className="image fit">
             <img src={pearup} alt="" className="img" />
           </span>
           <div>
@@ -252,7 +252,7 @@ const IndexPage = () => (
           </a>
         </div>
         <div>
-          <span>
+          <span className="image fit">
             <img src={chatty} alt="" className="img" />
           </span>
           <div>
@@ -273,7 +273,7 @@ const IndexPage = () => (
           </a>
         </div>
         <div>
-          <span>
+          <span className="image fit">
             <img src={tweeter} alt="" className="img" />
           </span>
           <div>
