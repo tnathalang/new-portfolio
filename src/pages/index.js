@@ -2,11 +2,17 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
+import { CardActions, CardContent, Typography } from '@material-ui/core';
 
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
+import chatty from '../assets/images/chatty.png';
+import pearup from '../assets/images/pearup.png';
+import jungle from '../assets/images/jungle.png';
+import tweeter from '../assets/images/tweeter.png';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -122,7 +128,7 @@ const IndexPage = () => (
         </header>
         <ul className="features">
           <li className="icon solid fa-code">
-            <h2>Languages</h2>
+            <h2>Language</h2>
             <p>
               Javascript
               <br />
@@ -137,7 +143,7 @@ const IndexPage = () => (
             </p>
           </li>
           <li className="icon solid fa-code-branch">
-            <h2>Tools</h2>
+            <h2>Tool</h2>
             <p>
               Git/Github
               <br />
@@ -154,7 +160,7 @@ const IndexPage = () => (
             </p>
           </li>
           <li className="icon solid fa-laptop">
-            <h2>Library and frameworks</h2>
+            <h2>Library and framework</h2>
             <p>
               React.JS
               <br />
@@ -198,24 +204,109 @@ const IndexPage = () => (
       <div className="portfolio">
         <div>
           <span className="image fit">
-            <img src={pic1} alt="" />
+            <img src={jungle} alt="" />
           </span>
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              Jungle
+            </Typography>
+            <Typography>
+              An e-commerce Ruby on Rails app, offers a review system and
+              purchase options with Stripes. Required Users to have an account
+            </Typography>
+            <Typography variant="body3" color="textSecondary" component="p">
+              Made using React on Rails, with Postgres DB, Bootstrap and SASS
+              for styling
+            </Typography>
+          </CardContent>
+          <a
+            size="small"
+            color="primary"
+            href="https://github.com/tnathalang/jungle-rails"
+            target="_blank"
+          >
+            Github Link
+          </a>
         </div>
         <div>
           <span className="image fit">
-            <img src={pic2} alt="" />
+            <img src={pearup} alt="" />
           </span>
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              Pear-UP!
+            </Typography>
+            <Typography>
+              Matching users base on common interests and for scheduling a
+              meetup with someone to do an activity within a coworker space on
+              the fly type of app
+            </Typography>
+            <Typography variant="body3" color="textSecondary" component="p">
+              Made using React on Rails, with Postgres DB, Bootstrap and SASS
+              for styling
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <a
+              size="small"
+              color="primary"
+              href="https://github.com/tnathalang/Pear-Up-"
+              target="_blank"
+            >
+              Github Link
+            </a>
+          </CardActions>
         </div>
-
         <div>
           <span className="image fit">
-            <img src={pic3} alt="" />
+            <img src={chatty} alt="" />
           </span>
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              Chatty
+            </Typography>
+            <Typography>
+              A minimal chatting app built with React, support multiple users.
+              You can also change colors of your name! no log ins needed
+            </Typography>
+            <Typography variant="body3" color="textSecondary" component="p">
+              Made using React and SASS
+            </Typography>
+          </CardContent>
+          <a
+            size="small"
+            color="primary"
+            href="https://github.com/tnathalang/chatty"
+            target="_blank"
+          >
+            Github Link
+          </a>
         </div>
         <div>
-          <span className="image fit">
-            <img src={pic1} alt="" />
+          <span className="image fit col-4">
+            <img src={tweeter} alt="" />
           </span>
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              Tweeter
+            </Typography>
+            <Typography>
+              A twitter clone project to help learn front-end without frameworks
+              and css practice. You can send tweets and they are stored.
+            </Typography>
+            <Typography variant="body3" color="textSecondary" component="p">
+              Made with JQuery Javascript, with Postgres DB, Bootstrap and CSS 3
+              for styling
+            </Typography>
+          </CardContent>
+          <a
+            size="small"
+            color="primary"
+            href="https://github.com/tnathalang/tweeter"
+            target="_blank"
+          >
+            Github Link
+          </a>
         </div>
       </div>
     </section>

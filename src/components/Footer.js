@@ -18,9 +18,6 @@ export default function Footer() {
       <ul className="copyright">
         <li>Made with passion</li>
         <li>Montreal, QC</li>
-        <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
-        </li>
         <li>&copy; Spectral</li>
       </ul>
     </footer>
