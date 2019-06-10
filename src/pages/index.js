@@ -185,7 +185,7 @@ const IndexPage = () => (
               <br />
               SQL
               <br />
-              Knes
+              Knex
               <br />
             </p>
           </li>

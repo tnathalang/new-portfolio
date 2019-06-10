@@ -32,11 +32,11 @@ export default function Nav({ onMenuToggle = () => {} }) {
                   <a href="#three">Portfolio</a>
                 </li>
               </Scroll>
-              <Scroll type="id" element="four">
+              {/* <Scroll type="id" element="four">
                 <li>
                   <a href="/Elements">Elements</a>
                 </li>
-              </Scroll>
+              </Scroll> */}
               <li>
                 <a
                   href="https://www.linkedin.com/in/tnathalang/"
