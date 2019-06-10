@@ -1943,7 +1943,8 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		column-gap: 1em; 
-		row-gap: 1em
+		row-gap: 1em;
+		padding: 1em 1em
 	  }
 	  
 	  #portfolio-box {
@@ -1953,3 +1954,20 @@
 	  .portfolio-row {
 		  margin-left: 1em
 	  }
+
+	 
+
+	.img {
+		opacity: 0.2;
+		transition: opacity .25s ease-in-out;
+		-moz-transition: opacity .25s ease-in-out;
+		-webkit-transition: opacity .25s ease-in-out;
+	
+		width:  100%;
+		
+		
+		}
+	 
+		.img:hover {
+		   opacity: 0.90;
+		   }

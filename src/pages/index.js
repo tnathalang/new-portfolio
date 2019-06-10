@@ -200,25 +200,23 @@ const IndexPage = () => (
         <p>These were projects I enjoy building the most</p>
       </div>
     </section>
-    <section>
+    <section id="three">
       <div className="portfolio">
         <div>
-          <span className="image fit">
-            <img src={jungle} alt="" />
+          <span>
+            <img src={jungle} alt="" className="img" />
           </span>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              Jungle
-            </Typography>
-            <Typography>
+          <div className="inner">
+            <h2 className="major">Jungle</h2>
+            <h4>
               An e-commerce Ruby on Rails app, offers a review system and
               purchase options with Stripes. Required Users to have an account
-            </Typography>
-            <Typography variant="body3" color="textSecondary" component="p">
+            </h4>
+            <p>
               Made using React on Rails, with Postgres DB, Bootstrap and SASS
               for styling
-            </Typography>
-          </CardContent>
+            </p>
+          </div>
           <a
             size="small"
             color="primary"
@@ -229,8 +227,8 @@ const IndexPage = () => (
           </a>
         </div>
         <div>
-          <span className="image fit">
-            <img src={pearup} alt="" />
+          <span>
+            <img src={pearup} alt="" className="img" />
           </span>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
@@ -258,8 +256,8 @@ const IndexPage = () => (
           </CardActions>
         </div>
         <div>
-          <span className="image fit">
-            <img src={chatty} alt="" />
+          <span>
+            <img src={chatty} alt="" className="img" />
           </span>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
@@ -283,8 +281,8 @@ const IndexPage = () => (
           </a>
         </div>
         <div>
-          <span className="image fit col-4">
-            <img src={tweeter} alt="" />
+          <span>
+            <img src={tweeter} alt="" className="img" />
           </span>
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
